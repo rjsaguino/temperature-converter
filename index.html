@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h3>Celsius to Fahrenheit Converter</h3>
-    <input id="celsius" type="text" placeholder="Enter number in °C" />
-    <button class="convert-button" onclick="convert()">CONVERT</button>
-    <div id="result">Result</div>
+    <h3>Temperature Converter</h3>
+    <div id="container">
+      <div class="left">
+        <input class="input-box" id="celsius" type="text" placeholder="Enter number in °C" />
+        <p>°Celsius</p>
+      </div>
+      <p class="equal-sign">=</p>
+      <div class="right">
+        <input  class="input-box" id="fahrenheit" type="text" placeholder="Enter number in °F" />
+        <p>°Fahrenheit</p>
+      </div>
     <script src="script.js"></script>
   </body>
 </html>
